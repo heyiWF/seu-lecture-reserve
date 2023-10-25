@@ -1,10 +1,8 @@
 # 验证码解析参数
 verify_code_params = {
-    'user': '<your-username>',
-    'pass': '<your-password>',
-    'softid': '<your-softid>',
-    'codetype': 1902,
-    'file_base64': ''
+    'type': 10110,
+    'token': <token>, # insert my token here after git clone!
+    'image': ''
 }
 
 # 验证码解析请求头
@@ -30,4 +28,4 @@ lecture_headers = {
 }
 
 # 目标讲座关键词，请尽可能指向唯一目标
-lecture_key = "<lecture-title>"
+lecture_key = "线上】【心理】人性与经济行为研究"
